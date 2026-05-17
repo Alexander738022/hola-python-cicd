@@ -1,3 +1,4 @@
-def test_hola():
-    mensaje = "Hola Mundo"
-    assert "Hola" in mensaje
+from app import saludar
+
+def test_saludar():
+    assert saludar() == "Hola Mundo"

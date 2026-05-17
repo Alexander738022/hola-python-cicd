@@ -1,1 +1,5 @@
-print("Hola Mundo desde CI/CD con GitHub Actions")
+def saludar():
+    return "Hola Mundo"
+
+if __name__ == "__main__":
+    print(saludar())
